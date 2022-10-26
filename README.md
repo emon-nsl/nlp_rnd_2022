@@ -19,8 +19,8 @@ __Dataset:__
 
 __Algorithm:__ ConSeqNet
 
-![](./images/emon_nli_graph.png)
-![](./images/conseqnet_architecture.png)
+![](./images/emon_nli_graph.png
+![](./images/conseqnet_architecture.png
 
 - Model divided into <b> Text based model </b> & <b> Graph based model </b>
 - <b> Text based model </b>
@@ -42,6 +42,55 @@ __Paper link:__ [click](https://arxiv.org/abs/1809.05724)
 __Github link:__
 
 __R & D Status:__ No
+
+
+## Paper 2 : Answering Legal Questions by Learning Neural Attentive Text Representation
+
+__Published data:__ 13 Dec 2020
+
+__Contribution:__ 
+- introduced efficient text representation method
+- Retrive specific articles
+
+__I/O Format:__ 
+
+![image](./images/text_representation_dataset_anno.png)
+
+__Dataset:__
+They made custom dataset
+- the legal document corpus, which contains Vietnamese legal documents
+- the QA dataset, which contains a set of legal questions (queries) and a list of relevant articles for each question.
+
+__Algorithm:__ 
+
+![](./images/text_representation_sentence_encoder.png)
+![](./images/text_representation_paragraph_encoder.png)
+
+- Model divided into <b> Text based model </b> & <b> Graph based model </b>
+- <b> Text based model </b>
+  - Context encoding[Encode using context]
+  - Word by word attention[Attention of every word]
+  - Matcher[Match with target]
+  - Pooling[Get fixed amount of tokens]
+- <b> Graph based model </b>
+  - Concept embedding
+  - Generate graph
+  - Graph embedding
+- <b> Merge Models </b>
+  - Feed forward model
+__Model Accuracies Reached:__
+85.2%
+
+__Paper link:__ [click](https://arxiv.org/abs/1809.05724)
+
+__Github link:__
+
+__R & D Status:__ No
+
+
+
+
+
 
 
 ## Paper 2 : Efficient Intent Detection with Dual Sentence Encoders
