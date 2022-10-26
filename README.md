@@ -11,15 +11,16 @@ __I/O Format:__
 
 __Dataset:__
 
-[link:](https://allenai.org/data/scitail)
-- SciTail: The dataset contains 27,026 examples with 10,101 examples with entails label and 16,925 examples with neutral label.
+
+- [SciTail](https://allenai.org/data/scitail): The dataset contains 27,026 examples with 10,101 examples with entails label and 16,925 examples with neutral label.
+- [ConceptNet](https://zenodo.org/record/1289942/files/conceptnet-distinguishing-attributes-data.zip) 
 
 ![image](./images/scitail_dataset.png)
 
 __Algorithm:__ ConSeqNet
 
-![](./images/emon_nli_graph.png
-![](./images/conseqnet_architecture.png
+![](./images/emon_nli_graph.png)
+![](./images/conseqnet_architecture.png)
 
 - Model divided into <b> Text based model </b> & <b> Graph based model </b>
 - <b> Text based model </b>
@@ -32,6 +33,7 @@ __Algorithm:__ ConSeqNet
   - Generate graph
   - Graph embedding
 - <b> Merge Models </b>
+  - Feed forward model
 __Model Accuracies Reached:__
 85.2%
 
