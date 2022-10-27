@@ -143,3 +143,7 @@ __Paper link:__ [click](https://arxiv.org/pdf/2003.04807.pdf)
 __Github link:__
 
 __R & D Status:__ No
+
+
+
+[//]: <> (Input/Output, Training Data, Feature Annotation, AI learning[for technical non-technical person])
