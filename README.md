@@ -35,8 +35,13 @@ __Algorithm:__ ConSeqNet
   - Graph embedding
 - <b> Merge Models </b>
   - Feed forward model
+
+__Technical Details:__
+Word vector dimension: 300D
+
 __Model Accuracies Reached:__
-85.2%
+- Train data: 89.6%
+- Test data: 85.2%
 
 __Paper link:__ [click](https://arxiv.org/abs/1809.05724)
 
@@ -94,9 +99,10 @@ __I/O Format:__
 ![image](./images/sample_squad_dataset.jpg)
 __Dataset:__
 SQuAD Dataset
+PolicyQA Dataset
 
 __Algorithm:__ 
-Various BERT models
+BERT, ALBERT, LEGAL-BERT, RoBERTa, DistillBERT models
 
 __Model Accuracies Reached:__
 <b> EM </b> = Exact Match
