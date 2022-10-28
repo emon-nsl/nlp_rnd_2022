@@ -171,10 +171,14 @@ __I/O Format:__
 ![](./images/spanbert_io.png)
 
 __Algorithm:__ 
-
+- Masking random spans forces it to learn more generally
+- Giving importance to boundary words makes it more robust in prediction
 
 __Dataset:__
-
+- SQuAD
+- NewsQA
+- TriviaQA
+- Coreference
 
 __Model Accuracies Reached:__
 ![](./images/spanbert_result.png)
