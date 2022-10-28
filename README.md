@@ -114,7 +114,6 @@ __Github [link](https://github.com/Fidac/Legal-SE-BERT-Study)__
 
 __R & D Status:__ No
 
-
 ## Paper 4 : Efficient Intent Detection with Dual Sentence Encoders
 
 __Published data:__ 10 Mar 2020
@@ -145,5 +144,45 @@ __Github link:__
 __R & D Status:__ No
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Paper 5 : SpanBERT: Improving Pre-training by Representing and Predicting Spans
+
+__Published data:__ 18 Jan 2020
+
+__Contribution:__ 
+- Mask contiguous random spans not tokens
+- Train using span boundery representations to predict entire masked span
+
+__I/O Format:__ 
+![](./images/spanbert_io.png)
+
+__Algorithm:__ 
+
+
+__Dataset:__
+
+
+__Model Accuracies Reached:__
+![](./images/spanbert_result.png)
+
+__Paper link:__ [link](https://arxiv.org/abs/1907.10529)
+
+__Github link:__ [link](https://github.com/facebookresearch/SpanBERT)
+
+__R & D Status:__ No
 
 [//]: <> (Input/Output, Training Data, Feature Annotation, AI learning[for technical non-technical person])
