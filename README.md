@@ -86,80 +86,7 @@ __Github link:__
 
 __R & D Status:__ No
 
-
-## Paper 3 : Study of Question Answering on Legal Software Document using BERT based models
-
-__Published data:__ June 2022
-
-__Contribution:__ 
-- Trained & tested various versions of transformer on SQaAD dataset
-
-__I/O Format:__ 
-
-![image](./images/sample_squad_dataset.jpg)
-__Dataset:__
-SQuAD Dataset
-PolicyQA Dataset
-
-__Algorithm:__ 
-BERT, ALBERT, LEGAL-BERT, RoBERTa, DistillBERT models
-
-__Model Accuracies Reached:__
-<b> EM </b> = Exact Match
-![image](./images/berts_on_squad.png)
-
-__Paper [link](https://openreview.net/pdf?id=Xk5rh9LPvmp)__ 
-
-__Github [link](https://github.com/Fidac/Legal-SE-BERT-Study)__
-
-__R & D Status:__ No
-
-## Paper 4 : Efficient Intent Detection with Dual Sentence Encoders
-
-__Published data:__ 10 Mar 2020
-
-__Contribution:__ 
-- Dual sentence encoders
-- Faster training
-
-__I/O Format:__ 
-![](./images/dual_encoder_intent_io.png)
-
-__Algorithm:__ 
-- <b> ConveRT: </b> Conversational Representations from Transformers
-- <b> USE: </b> Universal Sentence Encoder
-- Feed forward network to combine ConveRT & USE to get final output
-
-__Dataset:__
-- Banking77 Dataset[has 77 intents]
-
-__Model Accuracies Reached:__
-85.2%
-![](./images/dual_encoder_result.png)
-
-__Paper link:__ [click](https://arxiv.org/pdf/2003.04807.pdf)
-
-__Github link:__
-
-__R & D Status:__ No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Paper 5 : SpanBERT: Improving Pre-training by Representing and Predicting Spans
+## Paper 3 : SpanBERT: Improving Pre-training by Representing and Predicting Spans
 
 __Published data:__ 18 Jan 2020
 
@@ -188,5 +115,63 @@ __Paper link:__ [link](https://arxiv.org/abs/1907.10529)
 __Github link:__ [link](https://github.com/facebookresearch/SpanBERT)
 
 __R & D Status:__ No
+
+
+## Paper 4 : Study of Question Answering on Legal Software Document using BERT based models
+
+__Published data:__ June 2022
+
+__Contribution:__ 
+- Trained & tested various versions of transformer on SQaAD dataset
+
+__I/O Format:__ 
+
+![image](./images/sample_squad_dataset.jpg)
+__Dataset:__
+SQuAD Dataset
+PolicyQA Dataset
+
+__Algorithm:__ 
+BERT, ALBERT, LEGAL-BERT, RoBERTa, DistillBERT models
+
+__Model Accuracies Reached:__
+<b> EM </b> = Exact Match
+![image](./images/berts_on_squad.png)
+
+__Paper [link](https://openreview.net/pdf?id=Xk5rh9LPvmp)__ 
+
+__Github [link](https://github.com/Fidac/Legal-SE-BERT-Study)__
+
+__R & D Status:__ No
+
+## Paper 5 : Efficient Intent Detection with Dual Sentence Encoders
+
+__Published data:__ 10 Mar 2020
+
+__Contribution:__ 
+- Dual sentence encoders
+- Faster training
+
+__I/O Format:__ 
+![](./images/dual_encoder_intent_io.png)
+
+__Algorithm:__ 
+- <b> ConveRT: </b> Conversational Representations from Transformers
+- <b> USE: </b> Universal Sentence Encoder
+- Feed forward network to combine ConveRT & USE to get final output
+
+__Dataset:__
+- Banking77 Dataset[has 77 intents]
+
+__Model Accuracies Reached:__
+85.2%
+![](./images/dual_encoder_result.png)
+
+__Paper link:__ [click](https://arxiv.org/pdf/2003.04807.pdf)
+
+__Github link:__
+
+__R & D Status:__ No
+
 
 [//]: <> (Input/Output, Training Data, Feature Annotation, AI learning[for technical non-technical person])
