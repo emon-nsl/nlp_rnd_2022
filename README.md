@@ -86,38 +86,7 @@ __Github link:__
 
 __R & D Status:__ No
 
-## Paper 3 : SpanBERT: Improving Pre-training by Representing and Predicting Spans
-
-__Published data:__ 18 Jan 2020
-
-__Contribution:__ 
-- Mask contiguous random spans not tokens
-- Train using span boundery representations to predict entire masked span
-
-__I/O Format:__ 
-![](./images/spanbert_io.png)
-
-__Algorithm:__ 
-- Masking random spans forces it to learn more generally
-- Giving importance to boundary words makes it more robust in prediction
-
-__Dataset:__
-- SQuAD
-- NewsQA
-- TriviaQA
-- Coreference
-
-__Model Accuracies Reached:__
-![](./images/spanbert_result.png)
-
-__Paper link:__ [link](https://arxiv.org/abs/1907.10529)
-
-__Github link:__ [link](https://github.com/facebookresearch/SpanBERT)
-
-__R & D Status:__ No
-
-
-## Paper 4 : Study of Question Answering on Legal Software Document using BERT based models
+## Paper 3 : Study of Question Answering on Legal Software Document using BERT based models
 
 __Published data:__ June 2022
 
@@ -144,7 +113,7 @@ __Github [link](https://github.com/Fidac/Legal-SE-BERT-Study)__
 
 __R & D Status:__ No
 
-## Paper 5 : Efficient Intent Detection with Dual Sentence Encoders
+## Paper 4 : Efficient Intent Detection with Dual Sentence Encoders
 
 __Published data:__ 10 Mar 2020
 
@@ -173,5 +142,95 @@ __Github link:__
 
 __R & D Status:__ No
 
+
+
+
+## Paper 5 : Decomposed Meta-Learning for Few-Shot Named Entity Recognition
+
+__Published data:__ 13 Apr 2022
+
+__Contribution:__ 
+
+
+__I/O Format:__ 
+![](./images/)
+
+__Algorithm:__ 
+
+
+__Dataset:__
+
+
+__Model Accuracies Reached:__
+![](./images/)
+
+__Paper link:__ [link](https://arxiv.org/pdf/2204.05751v2.pdf)
+
+__Github link:__ [link](https://github.com/microsoft/vert-papers/tree/master/papers/DecomposedMetaNER)
+
+__R & D Status:__ No
+
+
+
+
+
+
+
+## Paper 6 : Entity-Relation Extraction as Multi-turn Question Answering
+
+__Published data:__ 4 Sep 2019
+
+__Contribution:__ 
+
+
+__I/O Format:__ 
+![](./images/)
+
+__Algorithm:__ 
+
+
+__Dataset:__
+
+
+__Model Accuracies Reached:__
+![](./images/)
+
+__Paper link:__ [link](https://arxiv.org/pdf/1905.05529.pdf)
+
+__Github link:__ [link](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)
+
+__R & D Status:__ No
+
+
+
+## Paper 7 : Improving Relation Extraction by Pre-trained Language Representations 
+__Published data:__ 27 Nov 2019
+
+__Contribution:__ 
+
+
+__I/O Format:__ 
+![](./images/)
+
+__Algorithm:__ 
+
+
+__Dataset:__
+
+
+__Model Accuracies Reached:__
+![](./images/)
+
+__Paper link:__ [link](https://arxiv.org/pdf/1911.12011.pdf) 
+
+__Github link:__ [link](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)
+
+__R & D Status:__ No
+
+
+## Only Github Repo </br>
+Repo [link](https://github.com/JsyPhil/paper-2-data)
+
+The repo shows how to extract information from legal contracts using Artificial Intelligence. Which is trained on CUAD (Contract Understanding Atticus Dataset).
 
 [//]: <> (Input/Output, Training Data, Feature Annotation, AI learning[for technical non-technical person])
