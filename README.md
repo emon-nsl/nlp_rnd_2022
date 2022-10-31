@@ -223,7 +223,7 @@ __Model Accuracies Reached:__
 
 __Paper link:__ [link](https://arxiv.org/pdf/1911.12011.pdf) 
 
-__Github link:__ [link](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)
+__Github link:__ [link](https://github.com/DFKI-NLP/TRE)
 
 __R & D Status:__ No
 
