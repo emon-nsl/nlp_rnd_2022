@@ -153,25 +153,26 @@ __Contribution:__
 
 
 __I/O Format:__ 
-![](./images/)
+Input: Brown becmae a lawyer at Pricewaterhouse Coopers at 2003. <br>
+Output: [Brown | Person], [Pricewaterhouse Coopers | Organization]
 
 __Algorithm:__ 
+![image](./images/decomposed_meta_few_shot_ner.png)
 
+- A span detector first detects spans
+- Detected spans are passed to entity classifier
 
 __Dataset:__
-
+![image](./images/few_show_dataset.png)
 
 __Model Accuracies Reached:__
-![](./images/)
+![](./images/fewshot_result.png)
 
 __Paper link:__ [link](https://arxiv.org/pdf/2204.05751v2.pdf)
 
 __Github link:__ [link](https://github.com/microsoft/vert-papers/tree/master/papers/DecomposedMetaNER)
 
 __R & D Status:__ No
-
-
-
 
 
 
