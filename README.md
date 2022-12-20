@@ -230,8 +230,13 @@ __R & D Status:__ No
 
 
 ## Only Github Repo </br>
-Repo [link](https://github.com/JsyPhil/paper-2-data)
+### Repo 
+[link](https://github.com/JsyPhil/paper-2-data)
 
 The repo shows how to extract information from legal contracts using Artificial Intelligence. Which is trained on CUAD (Contract Understanding Atticus Dataset).
+
+[link](https://github.com/Myrto-Iglezou/Question-answering-BERT-model/blob/main/BERT-model.ipynb)
+
+Question answering using BERT
 
 [//]: <> (Input/Output, Training Data, Feature Annotation, AI learning[for technical non-technical person])
